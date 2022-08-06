@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Carousel } from "bootstrap";
+import { Carousel } from "react-bootstrap";
 import forestImg from '../assets/120.jpg';
 import dforestImg from '../assets/121.jpg';
 import rforestImg from '../assets/122.jpg';
@@ -15,8 +15,8 @@ export default class CarouselBox extends Component {
                       alt="Forest"
                    />
                    <Carousel.Caption>
-                       <h3>JOB NOT WOLF</h3>
-                       <p>won't run into the forest</p>
+                       <h3>JOB IS NOT WOLF</h3>
+                       <p>it won't run into the forest</p>
                    </Carousel.Caption>
                </Carousel.Item>
                <Carousel.Item>
