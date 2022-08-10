@@ -30,8 +30,8 @@ export const Header = () => {
                     <Navbar.Collapse id="responsive-navbar-nav" >
                         <Nav className="mr-auto">
                             <Nav.Link onClick={() => goTo('/')}> Home </Nav.Link>
-                            <Nav.Link onClick={() => goTo('/')}> About us </Nav.Link>
-                            <Nav.Link onClick={() => goTo('/')}> Contact </Nav.Link>
+                            <Nav.Link onClick={() => goTo('/about')}> About us </Nav.Link>
+                            <Nav.Link onClick={() => goTo('/contacts')}> Contact </Nav.Link>
                             <Nav.Link onClick={() => goTo('/')}> Blog </Nav.Link>
                         </Nav>
                         <Form inline >

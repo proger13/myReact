@@ -1,6 +1,6 @@
-import { Button } from "bootstrap";
+
 import React, { Component } from "react";
-import { Container, Form } from "react-bootstrap";
+import { Container, Form, Button} from "react-bootstrap";
 
 export default class Contacts extends Component {
     render() {

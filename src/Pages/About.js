@@ -1,6 +1,6 @@
-import { Tab } from "bootstrap";
+
 import React, { Component } from "react";
-import { Container, Nav, Row, Col } from "react-bootstrap";
+import { Container, Nav, Row, Col, Tab } from "react-bootstrap";
 
 export default class About extends Component {
     render() {
@@ -27,7 +27,7 @@ export default class About extends Component {
                             </Nav>
                         </Col>
                         <Col sm={9}>
-                            <Tab.content>
+                            <Tab.Container>
                                 <Tab.Pane eventKey="first">
                                     <img src="https://www.figma.com/community/plugin/887996630608174929/thumbnail" />
                                     <p>The designer is not an artist, but also a creator. He draws websites like a portrait of Malevich</p>
@@ -55,7 +55,7 @@ export default class About extends Component {
                                         Чтение хороших книг — это разговор с самыми лучшими людьми прошедших времен. Рене Декарт
                                     </p>
                                 </Tab.Pane>
-                            </Tab.content>
+                            </Tab.Container>
                         </Col>
                     </Row>
 
