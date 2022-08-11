@@ -29,10 +29,10 @@ export const Header = () => {
                     <Navbar.Toggle arie-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav" >
                         <Nav className="mr-auto">
-                            <Nav.Link onClick={() => goTo('/')}> Home </Nav.Link>
+                            <Nav.Link onClick={() => goTo('/home')}> Home </Nav.Link>
                             <Nav.Link onClick={() => goTo('/about')}> About us </Nav.Link>
                             <Nav.Link onClick={() => goTo('/contacts')}> Contact </Nav.Link>
-                            <Nav.Link onClick={() => goTo('/')}> Blog </Nav.Link>
+                            <Nav.Link onClick={() => goTo('//blog')}> Blog </Nav.Link>
                         </Nav>
                         <Form inline >
                             style={"margin-left: auto"}
@@ -48,7 +48,7 @@ export const Header = () => {
             </Navbar>
             <div style={{ marginTop: 110 }}>
                 <Routes>
-                    <Route exact path="/" element={<Home />} />
+                    <Route exact path="/home" element={<Home />} />
                     <Route exact path="/about" element={<About />} />
                     <Route exact path="/contacts" element={<Contacts />} />
                     <Route exact path="/blog" element={<Blog />} />
