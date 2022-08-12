@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Carousel } from "react-bootstrap";
 import forestImg from '../assets/120.jpg';
 import dforestImg from '../assets/121.jpg';
-import rforestImg from '../assets/122.jpg';
+import rforestImg from '../assets/222.jpg';
 
 export default class CarouselBox extends Component {
     render () {
