@@ -32,7 +32,7 @@ export const Header = () => {
                             <Nav.Link onClick={() => goTo('/home')}> Home </Nav.Link>
                             <Nav.Link onClick={() => goTo('/about')}> About us </Nav.Link>
                             <Nav.Link onClick={() => goTo('/contacts')}> Contact </Nav.Link>
-                            <Nav.Link onClick={() => goTo('//blog')}> Blog </Nav.Link>
+                            <Nav.Link onClick={() => goTo('/blog')}> Blog </Nav.Link>
                         </Nav>
                         <Form inline >
                             style={"margin-left: auto"}

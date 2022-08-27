@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Container, Row, Col, ListGroup, Card } from "react-bootstrap";
-import { Media } from 'react-media';
+import  Media  from 'react-media';
 
 export default class Blog extends Component {
     render() {
@@ -8,7 +8,7 @@ export default class Blog extends Component {
             <Container>
                 <Row>
                     <Col md="9">
-                        <Media className="m-5">
+                        <Media query="(max-width: 599px)" className="m-5">
                             <img
                                 width={150}
                                 height={150}
@@ -23,7 +23,7 @@ export default class Blog extends Component {
                                 </p>
                             </Media.Body>
                         </Media>
-                        <Media className="m-5">
+                        <Media query="(max-width: 599px)" className="m-5">
                             <img
                                 width={150}
                                 height={150}
@@ -38,7 +38,7 @@ export default class Blog extends Component {
                                 </p>
                             </Media.Body>
                         </Media>
-                        <Media className="m-5">
+                        <Media query="(max-width: 599px)" className="m-5">
                             <img
                                 width={150}
                                 height={150}
@@ -53,7 +53,7 @@ export default class Blog extends Component {
                                 </p>
                             </Media.Body>
                         </Media>
-                        <Media className="m-5">
+                        <Media query="(max-width: 599px)" className="m-5">
                             <img
                                 width={150}
                                 height={150}
